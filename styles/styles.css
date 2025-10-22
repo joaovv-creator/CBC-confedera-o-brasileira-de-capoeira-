@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --corPrincipal: #C7BF78;
+    --corSecundaria: lightgreen;
+    --corTerciaria: #70703B;
+    --corQuaternaria: lightgray;
+    --corCinco: #F2E6D0;
+    --corSeis: #EA8181;
+}
+.container{
+    display: grid;
+    grid-template-areas: "navbar navbar"
+    "conteudo conteudo"
+    "footer footer";
+}
+.navbar{
+    grid-area: navbar;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.custom-navbar{
+    background-color: var(--corCinco);
+}
+.btn:hover{
+    color: white;
+}
+.conteudo{
+    grid-area: conteudo;
+}
+.imgCarrossel{
+    height: 500px;
+}
+.carousel{
+    border-top: solid var(--corPrincipal) 2px;
+    border-bottom: solid var(--corPrincipal) 2px;
+}
+.eventos{
+    margin-top: 60px;
+}
+.title{
+    text-align: center;
+    color: var(--corPrincipal);
+}
+.subTitle{
+    text-align: center;
+}
+.spanA{
+    color: var(--corSecundaria);
+}
+.spanF{
+    color: var(--corSeis);
+}
+.eventos1{
+    margin-top: 80px;
+}
+.eventosB{
+    cursor: pointer;
+}
+.graduacoes{
+    margin-top: 60px;
+    background-color: lightgray;
+    border-radius: 10px;
+    margin-bottom: 120px;
+}
+.cardG{
+    background-color: white;
+    border-radius: 10px;
+    border: solid black 2px;
+    margin-bottom: 10px;
+}
+.corda{
+    color: var(--corTerciaria);
+}
+.categoria{
+    color: var(--corQuaternaria);
+}
+footer{
+    background-color: var(--corCinco);
+}
+ footer h5 {
+  color: var(--corPrincipal); 
+}
+
+footer hr {
+  opacity: 0.3;
+}
+
+footer i {
+  color: #f8d210;
+}
