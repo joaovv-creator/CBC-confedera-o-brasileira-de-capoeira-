@@ -7,6 +7,9 @@
     --corCinco: #F2E6D0;
     --corSeis: #EA8181;
 }
+body{
+    font-family: "roboto", sans-serif;
+}
 .container{
     display: grid;
     grid-template-areas: "navbar navbar"
@@ -16,7 +19,8 @@
 .navbar{
     grid-area: navbar;
     border-radius: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 20px; 
+    margin-top: 3px;  
 }
 .custom-navbar{
     background-color: var(--corCinco);
