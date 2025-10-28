@@ -62,9 +62,10 @@ body{
 }
 .graduacoes{
     margin-top: 60px;
-    background-color: lightgray;
+    background-color: rgb(236, 236, 236);
     border-radius: 10px;
-    margin-bottom: 120px;
+    margin-bottom: 80px;
+    height: 850px;
 }
 .cardG{
     background-color: white;
